@@ -1,0 +1,54 @@
+.carrossel2__titulo{
+    font-size: 1.125em;
+    color: var(--cor-titulo);
+    background-color: var(--branco);
+    font-weight: 700;
+    padding: 1.5em 0 0.5em 0;
+    text-align: center;
+}
+
+.cardII__conteudo{
+    display:flex;
+    justify-content: space-between;
+}
+
+.cardII__botoes{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.listaII{
+    display:flex;
+}
+
+.cardII__titulo{
+    color: var(--cor-titulo);
+    font-weight: 700;
+}
+
+.cardII__titulo2{
+    color: #002F52;
+    font-size: 1.125em;
+    font-weight:700;
+    margin: 1em 0;
+}
+
+.cardII__texto{
+    font-size: 14px;
+}
+
+.ancoraII{
+    font-weight:700;
+    color: var(--branco);
+    background-color: var(--cor-titulo);
+    padding: 1em 2.2em;
+    
+}
+
+.faixa{
+    background-color: var(--branco);
+    width: 100;
+    height: 1em;
+    
+}

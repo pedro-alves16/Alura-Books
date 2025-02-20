@@ -1,0 +1,53 @@
+.lista-rodape{
+    display:none;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+.lista-rodape{
+    display:flex;
+    padding: 0 2em 2em 0;
+    display:block;
+}
+
+.rodape {
+    display:flex;
+    justify-content: space-between;
+}
+
+.lista-rodape__titulo{
+    margin-bottom: 2em;
+}
+
+.lista-rodape__item{
+    display:flex;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.lista-rodape__imagem{
+    padding-right: 0.5em;
+}
+
+.lista-rodape__item a{
+    text-decoration: none;
+    color: #474646;
+    font-size: 14px;
+}
+
+.rodape__titulo{
+    font-size: 24px;
+}
+}
+
+@media screen and (min-width: 1720px){
+    .lista-rodape{
+        border-left: 1px solid #474646;
+        padding-right: 0.5em;
+    }
+
+    .lista-rodape__titulo {
+        padding-left: 0.5em;
+    }
+}
